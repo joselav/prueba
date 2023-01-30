@@ -1,0 +1,286 @@
+* 
+{
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 100vw;
+}
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: #A4AC86;
+    display: flex;
+    position: sticky;
+    padding: 20px;
+}
+
+.logo {
+    width: 130px;
+    background-color: #DAD7CD;
+    border-radius: 30px;
+    display: flex;
+}
+
+.logo h1 {
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.botonera {
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botones {
+    width: 110px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #DAD7CD;
+    display: inline-block;
+    margin:10px;
+    align-self: center;
+}
+
+.botones h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.botones:hover{
+    background-color: #344e41;
+    color: #DAD7CD;
+}
+.inicio {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A4AC86;
+}
+
+#iuno {
+    width: 70vw;
+    height: 80vh;
+    background-color: #344e41;
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    align-self: left;
+}
+
+.imageninicio {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    background-image: url(../img/picture.svg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+}
+
+#idos {
+    width: 40vw;
+    height: 20vh;
+    background-color: #DAD7CD;
+    position: absolute;
+    left: 55vw;
+    top: 40vh;
+}
+
+#idos h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+#idos p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 60px;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DAD7CD;
+    display: flex;
+    flex-direction: row;
+}
+
+#aboutinfo {
+    width: 60vw;
+    padding: 70px;
+    margin: auto;
+}
+
+#aboutinfo h2 {
+    font-size: 50px;
+    text-align: start;
+}
+
+#aboutinfo p {
+    font-size: 18px;
+    text-align: start;
+}
+
+#imgabout {
+    width: 400px;
+    height: 400px;
+    background-color: #344e41;
+    margin: auto 50px;
+    background-image: url(../img/picture.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.product {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DAD7CD;
+}
+
+.ptext {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: row;
+}
+
+.pcajas {
+    width: 25vw;
+    height: 600px;
+    background-color: #718355;
+    margin:  30px auto;
+}
+
+.pimg {
+    width: 300px;
+    height: 300px;
+    background-color: #344e41;
+    background-image: url(../img/picture.svg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px auto;
+}
+
+.ptitulo h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.pinfo p {
+    font-size: 18px;
+    text-align: start;
+    margin: 10px 35px;
+}
+
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: #718355;
+    margin: auto;
+}
+
+.contactimg {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    background-image: url(../img/picture.svg);
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.contxt{
+    display: flex;
+    position: relative;
+}
+
+.txttitulo {
+    position: absolute;
+    top: -400px;
+    width: 100vw;
+}
+
+.txttitulo h3 {
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    color: #DAD7CD;
+}
+
+.txtp {
+    position: absolute;
+    top: -300px;
+    width: 100vw;
+}
+
+.txtp p {
+    width: 50vw;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    color: #DAD7CD;
+}
+
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: #1A1F14;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.lorem {
+    margin: auto;
+    margin-top: 90px;
+}
+
+.lorem h3 {
+    color: #DAD7CD;
+    font-size: 20px;
+}
+
+.lorem li {
+    color: #DAD7CD;
+    font-size: 12px;
+    list-style: none;
+    margin: 10px;
+}
+
+.redes {
+    width: 20vw;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+}
+
+.redondo {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #DAD7CD;
+    opacity: 0.5;
+    margin: 30px;
+}
+
+.copyright h4{
+    margin: auto;
+    text-align: center;
+    color: #DAD7CD;
+    opacity: 0.3;
+    font-size: 12px;
+}
